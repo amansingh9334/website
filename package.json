@@ -1,7 +1,7 @@
 {
   "name": "portfolio-main",
   "version": "0.1.0",
-  "homepage": "https://github.com/amansingh9334/portfolio",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
