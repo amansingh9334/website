@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import Pdf from "./yash.pdf";
+import Pdf from "./aman.pdf";
 
 import "./Navbar.scss";
 
@@ -63,15 +63,15 @@ const Navbar = () => {
               </li>
               <li className="media">
                 <a
-                  href="https://www.linkedin.com/in/yash-kumar-48310819b/ "
+                  href="https://www.linkedin.com/in/aman-raj-139b392b5/ "
                   target="_blank"
                 >
                   <FaLinkedinIn />
                 </a>{" "}
-                <a href="https://github.com/Yashk786" target="_blank">
+                <a href="https://github.com/amansingh9334" target="_blank">
                   <BsGithub />
                 </a>{" "}
-                <a href="mailto:yashk7366@gmail.com">
+                <a href="mailto:amansingh.hjp1@gmail.com">
                   <GrMail />
                 </a>
               </li>

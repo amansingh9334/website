@@ -23,20 +23,8 @@ const skills = [
     icon: images.react,
   },
   {
-    name: "Redux",
-    icon: images.redux,
-  },
-  {
     name: "Node.js",
     icon: images.node,
-  },
-  {
-    name: "Git",
-    icon: images.git,
-  },
-  {
-    name: "Material-UI",
-    icon: images.mu5,
   },
   {
     name: "Tailwind CSS",
@@ -49,10 +37,6 @@ const skills = [
   {
     name: "Bootstrap",
     icon: images.bootstrap,
-  },
-  {
-    name: "Firebase",
-    icon: images.firebase,
   },
   {
     name: "Github",

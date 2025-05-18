@@ -9,7 +9,7 @@ const Header = () => (
   <motion.div className="app__header header__flex ">
     <div className="header__container">
       <h2 className="heading ">
-        Hi, I'm Yash a passionate <br /> front-end developer.{" "}
+        Hi, I'm Aman a passionate <br /> front-end developer.{" "}
       </h2>
       <p className="paragraph">
         I create modern UI based on your design and <br />

@@ -29,7 +29,10 @@ import mytravel from "../assets/mytravel.png";
 import budgety from "../assets/budgety.png";
 import medium from "../assets/medium.png";
 
-import yash from "../assets/yash.jpg";
+import aman from "../assets/aman.jpeg";
+import hotelManagement from "../assets/hotelManagement.png";
+import healthBooker from "../assets/healthBooker.png";
+import howHealthy from "../assets/howHealthy.png";
 
 export default {
   email,
@@ -59,5 +62,8 @@ export default {
   crossDevelopment,
   maintenance,
   medium,
-  yash,
+  aman,
+  hotelManagement,
+  healthBooker,
+  howHealthy
 };

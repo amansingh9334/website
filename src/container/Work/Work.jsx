@@ -8,48 +8,31 @@ import { images } from "../../constants";
 
 const works = [
   {
-    name: "LinkedIn-Clone",
-    title: "LinkedIn-Clone",
-    imgUrl: images.linkedin,
+    name: "How-Healthy",
+    title: "How-Healthy",
+    imgUrl: images.howHealthy,
     description:
-      " A LinkedIn clone made using React.js and Firebase for the backend service, storage and authentication to make the project flexible.",
-    projectLink: "https://yashk786.github.io/linkedIn-clone/",
-    codeLink: "https://github.com/Yashk786/linkedIn-clone",
+      "A hostel management system built with PHP and Bootstrap to handle room bookings, payments, and student records digitally.",
+    projectLink: "", // Add live link if available
+    codeLink: "", // Add GitHub link if available
   },
   {
-    name: "My-Travel",
-    title: "My-Travel",
-    imgUrl: images.mytravel,
+    name: "Hotel Management",
+    title: "Hotel Management System",
+    imgUrl: images.hotelManagement,
     description:
-      "A travel website is a website that provides travel reviews, trip fares, or a combination of both. ",
-    projectLink: "https://yashk786.github.io/mytravel/",
-    codeLink: "https://github.com/Yashk786/mytravel",
+      "A PHP-based system for managing hotel operations, including booking, payments, and customer data tracking.",
+    projectLink: "", // Add live link if available
+    codeLink: "", // Add GitHub link if available
   },
   {
-    name: "food-order",
-    title: "Food Order App",
-    imgUrl: images.foodOrder,
+    name: "Health-Booker",
+    title: "Health-Booker",
+    imgUrl: images.healthBooker,
     description:
-      "Its a simple dummy Food-Order app where we got a list of meals form which we can choose and add those meals to the cart, and placed order.",
-    projectLink: "https://yashk786.github.io/Food-Order-App/",
-    codeLink: "https://github.com/Yashk786/Food-Order-App",
-  },
-  {
-    name: "Expense-Tracker",
-    title: "Expense-Tracker",
-    imgUrl: images.tracker,
-    description:
-      "Expense-Tracker is react base application , which use to see our expense over by years",
-    projectLink: "https://yashk786.github.io/Expense-Tracker/",
-    codeLink: "https://github.com/Yashk786/Expense-Tracker",
-  },
-  {
-    name: "Medium-clone",
-    title: "Medium-clone",
-    imgUrl: images.medium,
-    description:
-      "World's Famous Site Medium which inspired me to built this Medium 2.0 Clone with Next JS, Tailwind CSS  for Styling and Firebase for backend.",
-    codeLink: "https://github.com/Yashk786/medium-clone",
+      "A MERN stack app for booking doctor appointments, managing user profiles, and handling admin tasks securely.",
+    projectLink: "", // Add live link if available
+    codeLink: "", // Add GitHub link if available
   },
 ];
 
@@ -76,26 +59,30 @@ const Work = () => {
                 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
-                  <motion.div
-                    whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.9] }}
-                    transition={{ duration: 0.25 }}
-                    className="app__flex"
-                  >
-                    <AiFillEye />
-                  </motion.div>
-                </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
-                  <motion.div
-                    whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.9] }}
-                    transition={{ duration: 0.25 }}
-                    className="app__flex"
-                  >
-                    <AiFillGithub />
-                  </motion.div>
-                </a>
+                {work.projectLink && (
+                  <a href={work.projectLink} target="_blank" rel="noreferrer">
+                    <motion.div
+                      whileInView={{ scale: [0, 1] }}
+                      whileHover={{ scale: [1, 0.9] }}
+                      transition={{ duration: 0.25 }}
+                      className="app__flex"
+                    >
+                      <AiFillEye />
+                    </motion.div>
+                  </a>
+                )}
+                {work.codeLink && (
+                  <a href={work.codeLink} target="_blank" rel="noreferrer">
+                    <motion.div
+                      whileInView={{ scale: [0, 1] }}
+                      whileHover={{ scale: [1, 0.9] }}
+                      transition={{ duration: 0.25 }}
+                      className="app__flex"
+                    >
+                      <AiFillGithub />
+                    </motion.div>
+                  </a>
+                )}
               </motion.div>
             </div>
 
@@ -111,8 +98,9 @@ const Work = () => {
           </div>
         ))}
       </motion.div>
+
       <div className="more__link">
-        <a href="https://github.com/Yashk786" target="_blank">
+        <a href="https://github.com/amansingh9334" target="_blank" rel="noreferrer">
           More projects
         </a>
       </div>

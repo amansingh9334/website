@@ -11,7 +11,7 @@ const About = () => {
           <h1 className="head-text ">About</h1>
           <h2>Who I Am</h2>
           <p>
-            My name is Yash. I am a Front-End Developer with experience
+            My name is Aman. I am a Front-End Developer with experience
             specializing in web development, user interface design, cross
             browser development, app maintenance and data migration. Adept at
             identifying opportunities to enhance front-end design and improve
@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
         <div className="image__container ">
-          <img src={images.yash} alt="/" />
+          <img src={images.aman} alt="/" />
         </div>
       </div>
     </div>
